@@ -1,5 +1,4 @@
 --no-80chars-check
 --no-class_inherits_from_params_class-check
---no-class_parameter_defaults
 --fail-on-warnings
 --no-arrow_alignment-check
