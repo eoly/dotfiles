@@ -1,3 +1,3 @@
 NeoBundle 'rodjek/vim-puppet'
-NeoBundle 'rodjek/vim-snippets'
+NeoBundle 'honza/vim-snippets'
 NeoBundle 'godlygeek/tabular'
