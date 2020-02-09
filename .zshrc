@@ -1,6 +1,6 @@
 # Source global definitions
-if [ -f /etc/bashrc ]; then
-	. /etc/bashrc
+if [ -f /etc/zshrc ]; then
+	. /etc/zshrc
 fi
 
 # User specific environment
