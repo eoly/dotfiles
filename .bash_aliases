@@ -7,3 +7,7 @@ alias ggs='git status'
 # vi
 alias vi='nvim'
 alias vim='nvim'
+
+# kube ps1
+alias kon='kubeon'
+alias kox='kubeoff'
