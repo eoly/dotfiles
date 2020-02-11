@@ -14,7 +14,7 @@ antigen bundle git
 antigen bundle vi-mode
 antigen bundle zsh-users/zsh-completions
 
-antigen theme robbyrussell/oh-my-zsh
+antigen theme robbyrussell
 
 antigen apply
 
