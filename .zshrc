@@ -8,7 +8,7 @@ export PATH
 ANTIGEN_PATH=~/.dotfiles
 source $ANTIGEN_PATH/antigen/antigen.zsh
 
-antigen-use oh-my-zsh
+antigen use oh-my-zsh
 
 antigen bundle git
 antigen bundle vi-mode
