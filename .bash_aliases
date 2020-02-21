@@ -11,3 +11,7 @@ alias vim='nvim'
 # kube ps1
 alias kon='kubeon'
 alias kox='kubeoff'
+
+# fluxctl
+alias flctl='fluxctl --k8s-fwd-ns=fluxcd '
+alias fllw='flctl list-workloads'
