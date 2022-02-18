@@ -6,11 +6,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # User specific environment
-if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]
-then
-    PATH="$HOME/.local/bin:$HOME/bin:$PATH"
-fi
-export PATH
+export PATH="$HOME/.local/bin:$HOME/bin:/opt/homebrew/bin:$PATH"
 
 ANTIGEN_PATH=~/.dotfiles
 source $ANTIGEN_PATH/antigen/antigen.zsh
