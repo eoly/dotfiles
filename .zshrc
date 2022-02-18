@@ -27,6 +27,10 @@ if [ -f ~/.bash_aliases ]; then
 . ~/.bash_aliases
 fi
 
+if [ -f ~/.lce_aliases ]; then
+. ~/.lce_aliases
+fi
+
 PROMPT=$PROMPT"\$(kube_ps1) "
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
